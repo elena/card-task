@@ -34,20 +34,28 @@ class Card(models.Model):
     time_complete = models.DateTimeField(auto_now_add=True)
 
 
-class CardDue(models.Model):
-    time_due = models.DateTimeField(null=True, blank=True)
+# class Project(models.Model):
+#     pass
 
 
-class Recur(models.Model):
-    todo = models.ForeignKey(Card)
-    freq = models.PositiveIntegerField(help_text="In seconds")
+# class Location(models.Model):
+#     pass
 
 
-class Mission(models.Model):
-    mission = models.CharField(max_length=254)
+# class CardDue(models.Model):
+#     time_due = models.DateTimeField(null=True, blank=True)
 
 
-class MissionCard(models.Model):
-    mission = models.ForeignKey(Mission)
-    card = models.ForeignKey(Card)
-    time_added = models.DateTimeField(auto_now_add=True)
+# class Recur(models.Model):
+#     todo = models.ForeignKey(Card)
+#     freq = models.PositiveIntegerField(help_text="In seconds")
+
+
+# class Mission(models.Model):
+#     mission = models.CharField(max_length=254)
+
+
+# class MissionCard(models.Model):
+#     mission = models.ForeignKey(Mission)
+#     card = models.ForeignKey(Card)
+#     time_added = models.DateTimeField(auto_now_add=True)
