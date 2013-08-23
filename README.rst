@@ -1,10 +1,10 @@
 ===============================
-{{ cookiecutter.project_name }}
+Reijo: Simple Card Tasks
 ===============================
 
 .. image:: https://badge.fury.io/py/{{ cookiecutter.repo_name }}.png
     :target: http://badge.fury.io/py/{{ cookiecutter.repo_name }}
-    
+
 .. image:: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.png?branch=master
         :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
 
@@ -12,12 +12,13 @@
         :target: https://crate.io/packages/{{ cookiecutter.repo_name }}?version=latest
 
 
-{{ cookiecutter.project_short_description}}
+We all have a go at these systems periodically. This is my latest attempt.
 
 * Free software: BSD license
-* Documentation: http://{{ cookiecutter.repo_name }}.rtfd.org.
 
 Features
 --------
 
-* TODO
+* Issue tracking is awesome: projects, ticking off tickets -- these concepts are awesome
+* Granularity is a thing
+* Must capture every stupid thing

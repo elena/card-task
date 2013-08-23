@@ -2,18 +2,17 @@
 # -*- coding: utf-8 -*-
 
 """
-test_{{ cookiecutter.repo_name }}
+test_card_task
 ----------------------------------
 
-Tests for `{{ cookiecutter.repo_name }}` module.
+Tests for `Card Task` module.
 """
 
 import unittest
 
-from {{ cookiecutter.repo_name }} import {{ cookiecutter.repo_name }}
+from card_task import card_task
 
-
-class Test{{ cookiecutter.repo_name|capitalize }}(unittest.TestCase):
+class TestCardTask:
 
     def setUp(self):
         pass

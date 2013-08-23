@@ -18,23 +18,23 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='{{ cookiecutter.repo_name }}',
-    version='{{ cookiecutter.version }}',
-    description='{{ cookiecutter.project_short_description }}',
+    name='Reijo: Card-Tasks',
+    version='0.05',
+    description='Simple catch-everything sort-everything task capture and check system',
     long_description=readme + '\n\n' + history,
-    author='{{ cookiecutter.full_name }}',
-    author_email='{{ cookiecutter.email }}',
-    url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}',
+    author='elequ',
+    author_email='@elequ',
+    url='https://github.com/elena/card-task',
     packages=[
-        '{{ cookiecutter.repo_name }}',
+        'card-task',
     ],
-    package_dir={'{{ cookiecutter.repo_name }}': '{{ cookiecutter.repo_name }}'},
+    package_dir={'card-task': 'card-task'},
     include_package_data=True,
     install_requires=[
     ],
     license="BSD",
     zip_safe=False,
-    keywords='{{ cookiecutter.repo_name }}',
+    keywords='card-task',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
